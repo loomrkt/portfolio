@@ -1,0 +1,6 @@
+.navbar {
+  --bs-navbar-toggler-focus-width: 0rem !important;
+}
+.navbar-toggler {
+  border: none !important;
+}
