@@ -1,0 +1,15 @@
+.imgNameno {
+  aspect-ratio: 9/16;
+  object-fit: cover;
+  width: 50%;
+  height: 70%;
+  border-radius: 30px;
+}
+@media (max-width: 549px) {
+  .imgNameno {
+    display: flex;
+    align-self: center;
+    margin: 40px auto !important;
+    width: 80% !important;
+  }
+}

@@ -4,3 +4,21 @@
 .navbar-toggler {
   border: none !important;
 }
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.bg-dark {
+  background-color: #080708 !important;
+}
+.bg-blue {
+  background-color: #004cff !important;
+}
+.text-blue {
+  color: #004cff !important;
+}
+@media (min-width: 549px) {
+  .w-sm-100 {
+    width: 100% !important;
+  }
+}
