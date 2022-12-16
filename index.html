@@ -11,6 +11,9 @@
     <title>Nameno Rakotondrazaka</title>
   </head>
   <body class="bg-dark h-100 w-100">
+    <div id="loader-wrapper">
+      <object type="image/svg+xml" data="img/Loading.svg"></object>
+    </div>
     <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand ms-4 fs-2 text-blue" href="index.html"
@@ -61,5 +64,11 @@
         />
       </section>
     </main>
+    <script>
+      var loader = document.getElementById("loader-wrapper");
+      window.addEventListener("load", () => {
+        loader.style.display = "none";
+      });
+    </script>
   </body>
 </html>
