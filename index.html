@@ -10,7 +10,7 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <title>Nameno Rakotondrazaka</title>
   </head>
-  <body class="bg-dark h-100 w-100">
+  <body id="body" class="bg-dark h-100 w-100">
     <div id="loader-wrapper">
       <object type="image/svg+xml" data="img/Loading.svg"></object>
     </div>
@@ -67,6 +67,7 @@
     <script>
       var loader = document.getElementById("loader-wrapper");
       window.addEventListener("load", () => {
+        document.getElementById("body").style.overflowY = "auto";
         loader.style.display = "none";
       });
     </script>
